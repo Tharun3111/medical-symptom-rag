@@ -1,25 +1,25 @@
 # Core dependencies
-streamlit==1.31.0
-python-dotenv==1.0.0
+streamlit>=1.31.0
+python-dotenv>=1.0.0
 
 # LLM and AI
-openai
-langchain==0.1.9
-langchain-openai==0.0.6
-langchain-community==0.0.24
+openai>=1.0.0
+langchain>=0.1.0
+langchain-openai>=0.0.5
+langchain-community>=0.0.20
 
 # Embeddings and Vector Store
-sentence-transformers==2.3.1
-faiss-cpu==1.8.0
-torch==2.2.0
+sentence-transformers>=2.3.0
+faiss-cpu>=1.9.0
+torch>=2.0.0
 
 # Data processing
-pandas==2.2.0
-numpy==1.26.4
+pandas>=2.0.0
+numpy>=1.24.0
 
 # Evaluation
-ragas==0.1.7
-datasets==2.17.0
+ragas>=0.1.0
+datasets>=2.0.0
 
 # Utilities
-tqdm==4.66.1
+tqdm>=4.66.0
