@@ -28,7 +28,6 @@ venv/
 .venv/
 ENV/
 env/
-env/source venv/bin/activate
 
 # IDE
 .vscode/
@@ -41,12 +40,8 @@ env/source venv/bin/activate
 .env
 .env.local
 
-# Data and model files
-data/*.csv
-data/*.json
-data/*.txt
-store/*.faiss
-store/*.pkl
+# Data files (keep processed data, exclude raw XML)
+data/*.xml
 
 # Jupyter
 .ipynb_checkpoints/
